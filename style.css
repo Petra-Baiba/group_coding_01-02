@@ -1,0 +1,100 @@
+
+body {background-color: powderblue;}
+h1   {color: rgb(136, 136, 139); font-family: verdana;}
+h2   {color: rgb(110, 110, 145); font-family: courier;}
+h3   {color: rgb(43, 43, 143); font-family: verdana;}
+h4   {color: rgb(34, 34, 97); font-family: verdana;}
+p    {color: rgb(39, 22, 100);}
+a {
+    color: hotpink;
+    background-color: yellow;
+    font-weight: bold;
+    }
+
+
+/* Making background consistent */    
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; 
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+/* Heading styles */
+h1, h2, h3, h4 {
+  color: #007bff; 
+  margin-bottom: 10px;
+}
+
+
+/* Table styles  */
+table {
+  width: 20%; /* full width - BUT doesn't seem to do anything */
+  margin: 20px auto; /* center the table */
+  border-collapse: collapse; /* remove gaps between cells */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* shadow for depth */
+}
+
+th, td {/* table cell styles */
+  padding: 15px;/* space inside cells */
+  text-align: left;
+  border: 1px solid #ddd;
+} 
+
+th {/* table head row style */
+  background-image: linear-gradient(to top, #f9f9f9, #747474); /* gradient background */
+  color: white;
+  font-size: 1.2em;
+}
+
+tr:nth-child(even) {/* table rows in alternating colours */
+  background-color: #e7e7e7;
+}
+
+
+
+img {/* image styles */
+  border-radius: 50px; /* rounded corners */
+  max-width: auto; /* to make it responsive add max-width: 100% */
+  height: auto; /* maintain aspect ratio */
+  display: block; /* remove bottom space */
+  margin: 10px auto; /* center images */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */ 
+}
+
+
+
+footer { /* footer styles */
+  text-align: center;
+  padding: 20px;/* space inside footer */
+  background: #4CAF50;
+  color: white;
+  margin-top: 40px;
+} 
+
+
+/* hover over links */
+a:hover {
+  color: white;
+  background: hotpink;
+  transition: 0.3s;
+}
+
+/* hover over images */
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.7);
+    /* filter: invert(100); */  /* hahaha */
+    transition: 0.3s;
+}
+
